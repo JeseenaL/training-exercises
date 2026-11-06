@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title> Vehicle Booking </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Vehicle Booking </h1>
+        </header>
+        <main>
+            <section>
+                <h2>Book a Vehicle</h2>
+
+                <form id="bookingForm">
+                    <label for="client">Client Name: </label>
+                    <input type="text" id="client" name="client" required>
+                     
+                    <label for="vehicle">Vehicle Type:</label>
+                    <select id="vehicle" name="vehicle">
+                        <option value="car">Car</option>
+                        <option value="bike">Van</option>
+                        <option value="truck">Bus</option>
+                    </select>
+
+                    <label for="startdate">Start Date:</label>
+                    <input type="date" id="startdate" name="startdate" required>
+
+                    <label for="enddate">End Date:</label>
+                    <input type="date" id="enddate" name="enddate" required>
+
+                    <label for="dailyrate">Daily Rate:</label>
+                    <input type="number" id="dailyrate" name="dailyrate" required>
+
+                    <button type="submit">Calculate total</button>
+                </form>
+            </section>
+
+            <section id="result">
+                <h2>Booking Summary</h2>
+                <p>Your total will appear here</p>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
