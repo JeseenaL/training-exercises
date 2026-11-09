@@ -1,0 +1,29 @@
+dir = shows files and folders
+
+cd foldername= enters a foldername
+
+cd ..= goes up one foldername
+
+mkdir name = creates a foldername
+
+pwd/cd = shows my current location
+
+node --version= shows installed Node.js version
+
+Ctrl + C = stops a running program
+
+VS CODE 
+
+Ctrl + S  -  Save
+
+Ctrl + P  -  Jump to a file
+
+Ctrl + Shift + F - Search the entire project
+
+Ctrl + F - Search the current file
+
+Ctrl + / - Comment or uncomment line
+
+Alt + Shift + F - Auto format the file 
+
+Ctrl + ` - Open the terminal.
